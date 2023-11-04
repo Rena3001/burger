@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  background-color: #862429;
+  display: flex;
+  padding: 20px 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+}
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.nav-links ul a:hover {
+  color: #7fff00;
+}
+
+.nav-links ul a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.bg-img {
+  background-image: url(https://cdn.getiryemek.com/restaurants/1629742332475_1125x522.jpeg);
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+.order_btn {
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background-color: #862429;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #862429;
+  padding: 30px 0;
+}
+
+.footer-img {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  column-gap: 20px;
+  font-size: 40px;
+}
+
+.footer-img a {
+  color: white;
+}
+
+/*/////////////////////////////////menu/////////////////////*/
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.burgers {
+  padding: 40px 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.burgers div {
+  align-items: center;
+  background: white;
+  display: flex;
+  box-shadow: 1em 0 1em rgb(185 185 171);
+  justify-content: center;
+}
+.card-info {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30%;
+  width: 100%;
+}
+
+.card-info-title {
+  align-items: center;
+  display: flex;
+  font-family: Wendy One, sans-serif;
+  font-size: 25px;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+.card-info-title span {
+  color: #ffa801;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.card-info-text {
+  color: #555;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: calc(100% - 50px);
+}
+
+/*/////////////////////////////////About///////////////*/
+.about {
+  padding: 40px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about__img {
+  height: 400px;
+}
+
+.about h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.about p {
+  margin-top: 20px;
+  text-align: justify;
+}
